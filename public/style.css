@@ -1,0 +1,257 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Register{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: 650px;
+    border:2px solid black  ;
+    background:#ffcc00;
+    
+    /* border: */
+    border-radius: 5px;
+}
+
+
+.login{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: 650px;
+    border:2px solid black  ;
+    background:#ffcc00;
+    
+    /* border: */
+    border-radius: 5px;
+}
+
+.containerGroups{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: 650px;
+    border:2px solid black  ;
+    background:#ffcc00;
+    
+    /* border: */
+    border-radius: 5px;
+}
+
+
+#rootholder{
+display: flex;
+justify-content: space-between;
+}
+
+.header{
+   
+    /* padding: 20px 130px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top:120px ;
+    /* font-weight: bold; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    color:black;
+}
+
+.header4{
+     
+    /* padding: 20px 130px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top:50px ;
+    /* font-weight: bold; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    color:black;
+}
+
+#header2{
+      /* padding: 20px 130px; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      margin-top:50px ;
+      /* font-weight: bold; */
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+      color:black;
+}
+
+#header3{
+      /* padding: 20px 130px; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      margin-top:50px ;
+      /* font-weight: bold; */
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+      color:black;
+}
+
+.registerHere{
+    padding:20px 40px;
+
+}
+
+.container2{
+    padding:20px 40px;
+}
+
+.login input{
+    position: relative;
+    width:250px;
+    padding: 10px 5px;
+    margin-left: 100px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    opacity: 1;
+    animation: input_opacity 0.8s cubic-bezier(.55, 0, .1, 1);
+    transition: border-bottom 0.2s cubic-bezier(.55, 0, .1, 1)
+}
+
+#added{
+     position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: 650px;
+    border:2px solid black  ;
+    background:#ffcc00;
+    
+    /* border: */
+    border-radius: 5px;
+}
+
+#groupSize{
+    position: relative;
+    width:100px;
+    padding: 10px 5px;
+    /* margin-left: 100px; */
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    opacity: 1;
+    animation: input_opacity 0.8s cubic-bezier(.55, 0, .1, 1);
+    transition: border-bottom 0.2s cubic-bezier(.55, 0, .1, 1)
+}
+
+.registerHere input{
+    position: relative;
+    width:250px;
+    padding: 10px 5px;
+    margin-left: 50px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    opacity: 1;
+    animation: input_opacity 0.8s cubic-bezier(.55, 0, .1, 1);
+    transition: border-bottom 0.2s cubic-bezier(.55, 0, .1, 1)
+}
+
+.registerHere button{
+    margin-left: 50px;
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    color: wight;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #e6ffe6 ;
+    border-radius: 3px;
+    border: 1px solid #6699ff ;
+    transition: .5s;
+}
+
+#loginBtn{
+    margin-left: 125px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    color: wight;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #e6ffe6 ;
+    border-radius: 3px;
+    border: 1px solid #6699ff ;
+    transition: .5s;
+}
+
+#addToGroup{
+    margin-left: 50px;
+    margin-top: 90%;
+    height: 60px;
+    width: 350px;
+    font-size: 20px;
+    color: wight;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #e6ffe6 ;
+    border-radius: 3px;
+    border: 1px solid #6699ff ;
+    transition: .5s;
+}
+
+#addedGroup{
+    margin-left: 50px;
+    margin-top: 90%;
+    height: 60px;
+    width:200px;
+    font-size: 20px;
+    color: wight;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border:2px solid black  ;
+    background:#ffcc00;
+    border-radius: 15px;
+   
+    transition: .5s;
+}
+.register_form button:hover{
+    background:#151c6a ;
+
+}
+
+#root{
+    display: flex;
+}
+
+
+#bodyGroups{
+    display: flex;
+}
+
+ 
+ #rootAdded{
+    display: flex;
+ } 
+
+
+
+ 
+
+
